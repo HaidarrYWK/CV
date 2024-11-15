@@ -1,0 +1,103 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Kontainer utama */
+.cv-container {
+    max-width: 800px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.header {
+    text-align: center;
+    background-color: #d878ae;
+    color: #fff;
+    padding: 20px;
+}
+
+.profile-img {
+    width: 140px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.header h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.job-title {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.contact-info {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Konten */
+.content {
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    font-size: 20px;
+    color: #d000ff;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ff00ee;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.item {
+    margin-bottom: 15px;
+}
+
+.item h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.item span {
+    font-size: 14px;
+    color: #666;
+}
+
+.item p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* List Keterampilan & Bahasa */
+.skills-list, .languages-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills-list li, .languages-list li {
+    color: #f80c0c;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
